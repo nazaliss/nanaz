@@ -1,0 +1,37 @@
+/* width */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(222, 222, 222);
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 2rem;
+  background: #e8fbff;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: cyan;
+}
+
+.pd-target {
+  padding-top: 6rem;
+}
+
+.my-bgc {
+  background-color: #e8fbff;
+}
